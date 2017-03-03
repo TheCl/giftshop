@@ -1,0 +1,89 @@
+
+.none{
+	display: none;
+}
+.main-content{
+	height: 2550px;
+	margin: 0 auto;
+	}
+.men{
+	margin: 0px 0 0 67px;
+	float: left;
+}
+.women{
+	margin: 0 68px 0 0px;
+	float: right;
+	height: 310px;
+	width: 495px;
+}
+.child  {
+	margin: 5px 68px 0 0px;
+	float: right;
+	height: 255px;
+	width: 495px;
+}
+/* доделать.................................... *
+.women ul li{
+	position: absolute;
+	margin-top: -30px;
+}
+<ul>
+						<li class="child-1"><a href=""></a></li>
+						<li class="child-2"><a href=""></a></li>
+						<li class="child-3"><a href=""></a></li>
+						<li class="child-4"><a href=""></a></li>
+					</ul> */
+.search ul li{
+	width: 670px;
+	height: 170px;
+	background: #f0626e;
+	margin: 0px;
+
+}
+img.jewelry{
+	margin-left: 810px;
+	margin-top: -335px;
+
+}
+
+
+ img.crafts{
+	display: block;
+	margin-left: 134px;
+	margin-top: -200px;
+}
+------------------------------------
+<div class="none">
+<div class="main-content">
+	<div class="wear">
+		<div class="men">
+			<img src="men.png" class="men">
+		</div>
+		<div class="women">
+			<img src="women.png" class="women">
+		</div>
+		<div class="women">
+			<img src="child.png" class="child">
+
+		</div>
+		<div class="search">
+			<img src="" alt="">
+		</div>
+		<div class="crafts">
+			<img src="crafts.png" alt="crafts" class="crafts">
+		</div>
+		<div class="jewelry">
+			<img src="jew.png" alt="jewelry" class="jewelry">
+		</div>
+	</div>
+	<div class="new-products">
+
+	</div>
+	<div class="feauter-products">
+
+	</div>
+	<div class="who-we-are">
+
+	</div>
+</div>	
+</div>
