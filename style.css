@@ -10,6 +10,7 @@ header{
 	width: 1170px;
 	background: white;
 	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
 }
  li{
 	display: inline-block;
@@ -18,7 +19,7 @@ header{
 	padding: 0px;
 }
 ul.top-nav{
-	margin: 13px 0px 0px 680px;
+	margin: 13px 0px 0px 670px;
 }
 ul.top-nav a{
 	text-decoration: none;
@@ -117,6 +118,7 @@ ul.move-nav{
 	display: none;
 	margin-left: 50px;
 	padding: 0px;
+	z-index: 100;
 }
 ul.bot-nav li:hover ul.move-nav{
 	display: block;
@@ -168,6 +170,7 @@ footer{
 	background: white;
 	margin: 0 auto;
 	font-family: 'Lato', sans-serif;
+	border-top: 1px solid grey;
 }
 .footer-nav{
 	margin: 0px;
@@ -354,4 +357,63 @@ footer{
 }
 .red{
 	color: red;
+}
+
+.main-content{
+    height: 600px;
+	width: 1170px;
+	background: white;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+ .lorem{
+	color: #464646;
+	margin: 0 20px 40px 20px;
+	font-size: 16px;
+	display: block;
+	font-weight: bold;
+}
+.who-we-are{
+	height:600px;
+	background:white;
+}
+.who-we-are h2{
+	color: #05aecc;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+.who-we-are .wwa{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.who-we-are .wwa li{
+ display: inline-block;
+ padding-right: 25px;
+}
+.who-we-are .wwa li:nth-child(3n){
+ padding-right: 0px;
+}
+.who-we-are .wwa li p {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	margin-left: 205px;
+	margin-top: -150px;
+}
+.who-we-are .wwa li:nth-child(3n) p{
+	position: absolute;
+	margin-top:-140px;
+}
+#register{
+	background: #05aecc;
+	margin: 30px 0 30px 260px;
+	width: 650px;
+	height: 60px;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
 }
